@@ -23,7 +23,7 @@ const Training = () => {
         {/* Gambar 1 */}
         <div className="flex flex-col items-center">
           <a
-            href="https://www.google.com/maps/place/Gor+Samudra/@3.5990466,98.7075512,3a,75y/data=!3m8!1e2!3m6!1sAF1QipNa9bj1WaIu0NGIyMe2Z6qEhBOFs-vzpACwsoIU!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNa9bj1WaIu0NGIyMe2Z6qEhBOFs-vzpACwsoIU%3Dw152-h86-k-no!7i4080!8i2296!4m7!3m6!1s0x3031310b15672383:0x5f7bba30799bc827!8m2!3d3.5990466!4d98.7075512!10e5!16s%2Fg%2F11cnnxzkgy?hl=id&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/place/ABM+Arena+2/@3.5825724,98.6343951,17z/data=!3m1!4b1!4m6!3m5!1s0x30312f1154f98b63:0x2ff560e5701df1a7!8m2!3d3.582567!4d98.63697!16s%2Fg%2F11kqbykl8m?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -35,7 +35,7 @@ const Training = () => {
           </a>
           {/* Jadwal dengan background dan border-radius */}
           <div className="mt-2 p-4 bg-black text-white text-lg font-semibold rounded-lg shadow-md">
-          JADWAL : RABU 20.00-22.00
+          RABU GOR ABM || KIWI  20.00-22.00
           </div>
         </div>
 
@@ -54,7 +54,7 @@ const Training = () => {
           </a>
           {/* Jadwal dengan background dan border-radius */}
           <div className="mt-2 p-4 bg-black text-white text-lg font-semibold rounded-lg shadow-md">
-         JADWAL : MINGGU 10.00-12.00
+         MINGGU GOR SAMUDERA 10.00-12.00
           </div>
         </div>
       </section>

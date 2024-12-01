@@ -38,7 +38,7 @@ const Navbar = () => {
         {/* Dropdown untuk Schedule */}
         <div className="relative">
           <button
-            className="navbar-link text-white flex items-center"
+            className="navbar-link text-white flex items-center hover:text-green-500"
             onClick={toggleDropdown}
           >
             Schedule
@@ -61,14 +61,14 @@ const Navbar = () => {
             <div className="absolute left-0 bg-white shadow-lg rounded-lg mt-2 z-10">
               <Link
                 to="/game"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-200"
+                className="block px-4 py-2 text-gray-700 hover:bg-green-200 hover:text-green-500"
                 onClick={() => setIsDropdownOpen(false)}
               >
                 Game
               </Link>
               <Link
                 to="/Training"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-200"
+                className="block px-4 py-2 text-gray-700 hover:bg-green-200 hover:text-green-500"
                 onClick={() => setIsDropdownOpen(false)}
               >
                 Training
@@ -80,7 +80,7 @@ const Navbar = () => {
         {/* Dropdown untuk Media */}
         <div className="relative">
           <button
-            className="navbar-link text-white flex items-center"
+            className="navbar-link text-white flex items-center hover:text-green-500"
             onClick={toggleMediaDropdown}
           >
             Media
@@ -103,14 +103,14 @@ const Navbar = () => {
             <div className="absolute left-0 bg-white shadow-lg rounded-lg mt-2 z-10">
               <Link
                 to="/videos"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-200"
+                className="block px-4 py-2 text-gray-700 hover:bg-green-200 hover:text-green-500"
                 onClick={() => setIsMediaDropdownOpen(false)}
               >
                 Videos
               </Link>
               <Link
                 to="/images"
-                className="block px-4 py-2 text-gray-700 hover:bg-green-200"
+                className="block px-4 py-2 text-gray-700 hover:bg-green-200 hover:text-green-500"
                 onClick={() => setIsMediaDropdownOpen(false)}
               >
                 Images

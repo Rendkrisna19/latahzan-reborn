@@ -5,11 +5,11 @@ import slide2Image from '../images/bg3.png';
 import slide3Image from '../images/bg3.png';
 import slide4Image from '../images/bg3.png';
 import slide5Image from '../images/bg3.png';
-import posterImage1 from '../images/flyer 1.png';
-import posterImage2 from '../images/1.png';
-import posterImage3 from '../images/2.png';
-import posterImage4 from '../images/3.png';
-import posterImage5 from '../images/4.png';
+import posterImage1 from '../images/1 (1).png';
+import posterImage2 from '../images/2 (1).png';
+import posterImage3 from '../images/3 (1).png';
+import posterImage4 from '../images/4(4).png';
+import posterImage5 from '../images/5..png';
 
 const HeroSection = () => {
   const [activeIndex, setActiveIndex] = useState(0);

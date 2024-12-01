@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundImage from "../images/b2.jpg";
-import PlayerImage from "../images/Team/Team.png";
+import PlayerImage from "../images/membership.png";
 
 const Membership = () => {
   return (
@@ -14,11 +14,11 @@ const Membership = () => {
       <div className="absolute inset-0 bg-green-950 opacity-80"></div>
 
       {/* Gambar Player */}
-      <div className="relative w-full lg:w-3/4 flex justify-center lg:justify-end">
+      <div className="relative w-full lg:w-3/4 flex justify-center lg:justify-center">
         <img
           src={PlayerImage}
           alt="Player"
-          className="w-[900px] h-auto max-w-lg lg:w-[700px] object-contain z-10"
+          className="w-[700px] h-auto max-w-lg lg:w-[700px] object-contain z-10"
           style={{
             filter: "drop-shadow(0 0 40px rgba(255, 255, 255, 0.7))",
           }}

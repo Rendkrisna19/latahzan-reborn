@@ -9,10 +9,10 @@ import Img7 from "../Images2/7.jpg";
 import Img8 from "../Images2/8.jpg";
 import Img9 from "../Images2/9.jpg";
 import Img10 from "../Images2/10.png";
-import Img11 from "../Images2/11.jpeg";
-import Img12 from "../Images2/12.jpg";
-import Img13 from "../Images2/13.jpeg";
-import Img14 from "../Images2/14.jpeg";
+import Img11 from "../Images2/11.png";
+import Img12 from "../Images2/12.png";
+import Img13 from "../Images2/13.png";
+import Img14 from "../Images2/9.png";
 import backgroundImage from "../images/bg3.png";
 
 // Array gambar
@@ -59,31 +59,31 @@ const Images = () => {
     >
       {/* Judul */}
       <h1 className="text-3xl md:text-5xl font-bold text-white text-center py-10">
-        Galeri Latahzan
+        Galery Latahzan
       </h1>
 
       {/* Kontainer Gambar */}
       <div className="flex flex-col items-center">
-        {/* Gambar */}
-        <div className="relative aspect-w-19 aspect-h-6 w-3/4 md:w-1/2 lg:w-1/3 border-4 border-white rounded-lg shadow-lg overflow-hidden">
-          <img
-            className="w-full h-full object-cover"
-            src={imageList[currentIndex].src}
-            alt={imageList[currentIndex].alt}
-          />
-        </div>
+        {/* Gambar dengan Card */}
+        <div className="relative w-[90%] md:w-2/3 lg:w-1/2 bg-white border-4 border-white rounded-lg shadow-lg overflow-hidden aspect-w-16 aspect-h-9">
+  <img
+    className="w-full h-full object-cover"
+    src={imageList[currentIndex].src}
+    alt={imageList[currentIndex].alt}
+  />
+</div>
 
         {/* Tombol Navigasi */}
-        <div className="flex justify-center items-center mt-4 space-x-4">
+        <div className="flex justify-center items-center mt-6 space-x-4">
           <button
             onClick={handlePrev}
-            className="bg-green-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700"
+            className="bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-700"
           >
             Back
           </button>
           <button
             onClick={handleNext}
-            className="bg-green-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-700"
+            className="bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-700"
           >
             Next
           </button>

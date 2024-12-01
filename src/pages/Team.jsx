@@ -135,7 +135,7 @@ const PlayersAndCoach = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-green-800 bg-opacity-50"></div>
+      {/* <div className="absolute inset-0 bg-green-800 bg-opacity-50"></div> */}
 
       
 

@@ -1,20 +1,24 @@
 import React from 'react'
-import BackgroundImage from '../images/b2.jpg';
+
 import image1 from '../images/patnerimages/Arka Parfume.png';
 import image2 from '../images/patnerimages/FEB UISU.jpg';
 import image3 from '../images/patnerimages/Poppin Coffee.png';
 import image4 from '../images/patnerimages/Pro Property.png';
 import Gambar from '../images/Logo Hijau.png';
+import backgroundImage from "../images/bg3.png"; 
 
 const Corp = () => {
   return (
-    <div className='flex flex-col pt-20 md:pt-24 bg-img '>
+    <div  className="flex flex-col items-center p-4 bg-patner pt-20 md:pt-24 relative bg-cover bg-center min-h-screen p-8"
+    style={{
+      backgroundImage: `url(${backgroundImage})`,
+    }}>
       
         <h1 className="relative text-7xl font-bold text-white text-center">Corp</h1>
      
 
       <section className=' py-10'>
-  <h1 className='relative text-2xl font-bold text-white text-center mb-5'>Latahzan Corporation</h1>
+  <h1 className='relative text-2xl font-bold text-green-500 text-center mb-5'>Latahzan Corporation</h1>
   <div className='flex justify-center items-center'>
   <a
   href="https://www.instagram.com/latahzan_reborn/"
@@ -32,8 +36,8 @@ const Corp = () => {
   </div>
 </section>
 
-      <section className="py-10 bg-patner">
-        <h1 className='relative text-2xl font-bold text-white text-center mb-5'>Sponsorship</h1>
+      <section className="py-10 pt-20 md:pt-24">
+        <h1 className='relative text-2xl font-bold text-green-600 text-center mb-5 pt-20 md:pt-24'>Sponsorship</h1>
         <div className="container mx-auto flex flex-wrap justify-center items-center gap-6 lg:gap-8">
           <a href="https://www.arka-parfume.com" target="_blank" rel="noopener noreferrer">
             <img

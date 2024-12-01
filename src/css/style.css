@@ -1,0 +1,119 @@
+/* custom.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+*{
+  font-family: "Bebas Neue", serif;
+  letter-spacing: 3px;
+}
+
+.font-contactUs{
+  font-family: 'Times New Roman', Times, serif;
+}
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bg.jpg') no-repeat center center/cover;
+    font-family: "Bebas Neue", serif;    
+    background-attachment: fixed;
+   
+  }
+
+  .bg-patner{
+    background-color: #487e67;
+    
+  }
+
+  .bg-img{
+    background-image: url(../images/bg3.png);
+  }
+
+
+  .font-p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+  }
+
+  .group:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+ 
+
+ 
+  .hero-overlay {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(1, 44, 10, 0.413), rgba(2, 50, 21, 0.39));
+    z-index: 1;
+  }
+  .hero-overlay-patner {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(3, 198, 152, 0.664), rgba(2, 115, 102, 0.39));
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+  }
+  
+ 
+  
+  .navbar:hover {
+    background: rgba(0, 36, 27, 0.749);
+  }
+
+  .bg-nav{
+    background-color: #004a2988;
+  }
+
+  .text-hover::hover{
+    color: #00ff9d;
+  }
+  
+  
+
+
+  .fullscreen-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #02854a; /* Warna background solid */
+    z-index: 50;
+    color: #00a960;
+  }
+
+  .nav-bg-nav{
+    background-color: #00ff9d;
+    width: 100%;
+    height: 100%;
+  }
+
+  .poster-image{
+    width: 450px;
+    height: 450px;
+  }
+  
+  

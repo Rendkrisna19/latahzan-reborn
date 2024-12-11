@@ -10,6 +10,7 @@ import backgroundImage from "../images/bg3.png";
 import Game1 from '../images/Game/Benteng CUP.jpg';
 import Game2 from '../images/Game/LTZ VS BTG.jpg';
 import Game3 from '../images/Game/ALUMNI VS LTZ.jpg';
+import Game4 from '../images/Game/POSTER.png';
 
 // Data game
 const games = [
@@ -33,6 +34,14 @@ const games = [
     date: '28 November 2024 Jam 19.30',
     event: 'BENTENG CUP',
     teams: 'Alumni Sutomo VS Latahzan ',
+  
+  },
+  {
+    id: 4,
+    image: Game4,
+    date: 'Wednesday 20.00 WIB',
+    event: 'FRIENDLY MATCH',
+    teams: 'ROYAL BASKET BALL VS Latahzan Reborn ',
   
   }
 

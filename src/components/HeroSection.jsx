@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import slide1Image from '../images/bg3.png';
 import slide2Image from '../images/bg3.png';
 import slide3Image from '../images/bg3.png';
@@ -56,6 +57,14 @@ const HeroSection = () => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
+  //aos animation
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Durasi animasi dalam milidetik
+      once: true, // Apakah animasi hanya berjalan sekali
+    });
+  }, []);
+
   return (
     <div
       className="relative bg-cover bg-center bg-no-repeat text-white min-h-screen flex flex-col items-center justify-center transition-all duration-500 pt-20 md:pt-24"
@@ -68,15 +77,15 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-green-950 bg-opacity-50"></div>
 
       {/* Konten & Gambar Poster */}
-      <div className="relative z-10 container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
+      <div  className="relative z-10 container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
         {/* Konten */}
         <div className="flex-1 text-center lg:text-left">
-          <h1 className="text-4xl md:text-6xl font-bold">{slides[activeIndex].title}</h1>
-          <p className="text-lg md:text-xl mt-4">{slides[activeIndex].subtitle}</p>
+          <h1  data-aos="fade-up" className="text-4xl md:text-6xl font-bold">{slides[activeIndex].title}</h1>
+          <p  data-aos="fade-down" className="text-lg md:text-xl mt-4">{slides[activeIndex].subtitle}</p>
         </div>
 
         {/* Gambar Poster */}
-        <div className=" poster-image md:w-68 md:h-68 flex-shrink-0">
+        <div   data-aos="fade-up" className=" poster-image md:w-68 md:h-68 flex-shrink-0">
           <img
             src={slides[activeIndex].poster}
             alt={`Poster ${activeIndex + 1}`}

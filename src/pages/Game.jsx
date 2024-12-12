@@ -44,27 +44,6 @@ const games = [
     teams: 'ROYAL BASKET BALL VS Latahzan Reborn ',
   
   }
-
-  //   id: 4,
-  //   image: Game1,
-  //   date: '28 November 2024 Jam 19.30',
-  //   event: 'BENTENG CUP',
-  //   teams: 'Alumni Sutomo VS Latahzan',
-  // },
-  // {
-  //   id: 5,
-  //   image: Game2,
-  //   date: 'Fri, Nov 22 | 9:00 PM',
-  //   event: 'CUP NIGHT',
-  //   teams: 'DAL @ DEN',
-  // },
-  // {
-  //   id: 6,
-  //   image: Game3,
-  //   date: 'Sun, Nov 24 | 5:00 PM',
-  //   event: '',
-  //   teams: 'DAL @ MIA',
-  // },
 ];
 
 const GameCardsCarousel = () => {

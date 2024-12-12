@@ -49,7 +49,7 @@ const Videos = () => {
       }}
     >
       {/* Judul */}
-      <h1 className="text-5xl md:text-7xl font-bold text-white text-center py-10">
+      <h1 className="text-5xl md:text-7xl font-bold text-white text-center py-10 text-shadow-heading ">
       VIDEOS LATAHZAN
       </h1>
 

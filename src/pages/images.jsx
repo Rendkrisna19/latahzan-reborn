@@ -13,7 +13,9 @@ import Img11 from "../Images2/11.png";
 import Img12 from "../Images2/12.png";
 import Img13 from "../Images2/13.png";
 import Img14 from "../Images2/9.png";
+import Img15 from "../Images2/10.jpg"
 import backgroundImage from "../images/bg3.png";
+
 
 // Array gambar
 const imageList = [
@@ -31,6 +33,7 @@ const imageList = [
   { src: Img12, alt: "12" },
   { src: Img13, alt: "13" },
   { src: Img14, alt: " 14" },
+  { src: Img15, alt: " 14" },
 ];
 
 const Images = () => {
@@ -58,8 +61,8 @@ const Images = () => {
       }}
     >
       {/* Judul */}
-      <h1 className="text-3xl md:text-5xl font-bold text-white text-center py-10">
-        Galery Latahzan
+      <h1 className="text-3xl md:text-5xl font-bold text-white text-center py-10 text-shadow-heading ">
+        Ga<span className="text-green-500">le</span>ry Latahzan
       </h1>
 
       {/* Kontainer Gambar */}

@@ -16,3 +16,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.shadow-glow {
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.3); /* Warna glow */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-glow:hover {
+  box-shadow: 0 8px 30px rgba(0, 255, 0, 0.6); /* Glow lebih besar saat hover */
+}
+

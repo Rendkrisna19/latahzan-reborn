@@ -363,7 +363,7 @@ const PlayersAndCoach = () => {
      
       {/* Players Section */}
       <div className="relative z-10 pt-20 md:pt-24">
-        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest">
+        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest text-shadow-heading  ">
           PLAYERS
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 justify-items-center ">
@@ -374,7 +374,7 @@ const PlayersAndCoach = () => {
       </div>
  
       <div className="relative z-10 pt-20 md:pt-24">
-        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest">
+        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest text-shadow-heading ">
           COACH
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 justify-items-center ">
@@ -385,7 +385,7 @@ const PlayersAndCoach = () => {
       </div>
 
        <div className="relative z-10 pt-20 md:pt-24">
-        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest">
+        <h2 className="text-7xl font-bold text-white text-left mb-8 md:pl-8 tracking-widest text-shadow-heading ">
           MANAGEMENT
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 justify-items-center ">

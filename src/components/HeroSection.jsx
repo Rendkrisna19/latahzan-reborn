@@ -79,9 +79,9 @@ const HeroSection = () => {
       {/* Konten & Gambar Poster */}
       <div  className="relative z-10 container mx-auto px-4 flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
         {/* Konten */}
-        <div className="flex-1 text-center lg:text-left">
-          <h1  data-aos="fade-up" className="text-4xl md:text-6xl font-bold">{slides[activeIndex].title}</h1>
-          <p  data-aos="fade-down" className="text-lg md:text-xl mt-4">{slides[activeIndex].subtitle}</p>
+        <div className="flex-1 text-center lg:text-left ">
+          <h1  data-aos="fade-up" className="text-4xl md:text-6xl font-bold text-shadow-heading ">{slides[activeIndex].title}</h1>
+          <p  data-aos="fade-down" className="text-lg md:text-xl mt-4 text-shadow-heading ">{slides[activeIndex].subtitle}</p>
         </div>
 
         {/* Gambar Poster */}

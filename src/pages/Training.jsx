@@ -13,15 +13,15 @@ const Training = () => {
     >
       {/* Header */}
       <header className="w-full mb-8">
-        <h1 className="text-5xl font-bold text-center md:text-center md:text-6xl text-white">
+        <h1 className="text-5xl font-bold text-center md:text-center md:text-6xl text-white text-shadow-heading ">
           Training
         </h1>
       </header>
 
       {/* Grid Images */}
-      <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+      <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 ">
         {/* Gambar 1 */}
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <a
             href="https://www.google.com/maps/place/ABM+Arena+2/@3.5825724,98.6343951,17z/data=!3m1!4b1!4m6!3m5!1s0x30312f1154f98b63:0x2ff560e5701df1a7!8m2!3d3.582567!4d98.63697!16s%2Fg%2F11kqbykl8m?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
             target="_blank"
@@ -35,7 +35,7 @@ const Training = () => {
           </a>
           {/* Jadwal dengan background dan border-radius */}
           <div className="mt-2 p-4 bg-black text-white text-lg font-semibold rounded-lg shadow-md">
-          RABU GOR ABM || KIWI  20.00-22.00
+          KAMIS GOR ABM || KIWI  20.00-22.00
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Training = () => {
             <img
               src={lokasi2}
               alt="Gambar 2"
-              className="w-64 aspect-square border-4 border-gray-300 object-cover grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer"
+              className="w-64 aspect-square border-4 border-gray-300 object-cover grayscale hover:grayscale-0 transition duration-300 ease-in-out cursor-pointer shadow-glow"
             />
           </a>
           {/* Jadwal dengan background dan border-radius */}
@@ -60,7 +60,7 @@ const Training = () => {
       </section>
 
       {/* Google Maps */}
-      <section className="w-full max-w-4xl">
+      {/* <section className="w-full max-w-4xl">
         <iframe
           className="w-full aspect-video border-4 border-gray-300"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63711.658582188145!2d98.63211793873579!3d3.5923677888019503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3031310b15672383%3A0x5f7bba30799bc827!2sGor%20Samudra!5e0!3m2!1sid!2sid!4v1731830650795!5m2!1sid!2sid"
@@ -69,7 +69,7 @@ const Training = () => {
           referrerPolicy="no-referrer-when-downgrade"
           title="Google Maps Location"
         ></iframe>
-      </section>
+      </section> */}
     </div>
   );
 };

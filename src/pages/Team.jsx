@@ -41,6 +41,12 @@ import player38 from "../images/Team/38.png";
 import player39 from "../images/Team/39.png";     
 import player40 from "../images/Team/40.png";     
 import player41 from "../images/Team/41.png";     
+import player42 from "../images/Team/42.png";     
+import player43 from "../images/Team/43.png";     
+import player44 from "../images/Team/44.png";     
+import player45 from "../images/Team/45.png";     
+import player46 from "../images/Team/46.png";     
+import player47 from "../images/Team/47.png";     
 
 import backgroundImage from "../images/bg3.png"; // Import gambar latar belakang
 
@@ -86,6 +92,12 @@ import player38Hover from "../images/TeamHover/38.png";
 import player39Hover from "../images/TeamHover/39.png";
 import player40Hover from "../images/TeamHover/40.png";
 import player41Hover from "../images/TeamHover/41.png";
+import player42Hover from "../images/TeamHover/42.png";
+import player43Hover from "../images/TeamHover/43.png";
+import player44Hover from "../images/TeamHover/44.png";
+import player45Hover from "../images/TeamHover/45.png";
+import player46Hover from "../images/TeamHover/46.png";
+import player47Hover from "../images/TeamHover/47.png";
 
 //Choach Gambar
 import choach1 from "../images/ChoachImage/42.png";
@@ -113,6 +125,10 @@ import choachHover7  from"../images/ChoachImage/48.png";
 import choachHover8 from "../images/ChoachImage/49.png";
 import choachHover9  from"../images/ChoachImage/50.png";
 import choachHover10 from "../images/ChoachImage/51.png";
+import choachHover11 from "../images/ChoachImage/52.png";
+import choachHover12 from "../images/ChoachImage/53.png";
+// import choachHover13 from "../images/ChoachImage/54.png";
+// import choachHover14 from "../images/ChoachImage/55.png";
 
 // Komponen untuk menampilkan kartu pemain
 const PlayerCard = ({ player }) => {
@@ -302,6 +318,30 @@ const PlayersAndCoach = () => {
       image: player41,
       hoverImage: player41Hover,
     },
+    {
+      image: player42,
+      hoverImage: player42Hover,
+    },
+    {
+      image: player43,
+      hoverImage: player43Hover,
+    },
+    {
+      image: player44,
+      hoverImage: player44Hover,
+    },
+    {
+      image: player45,
+      hoverImage: player45Hover,
+    },
+    {
+      image: player46,
+      hoverImage: player46Hover,
+    },
+    {
+      image: player47,
+      hoverImage: player47Hover,
+    },
   ];
 
   const coaches = [
@@ -359,11 +399,11 @@ const PlayersAndCoach = () => {
     },
     {
       image: choach11,
-      hoverImage: choachHover9,
+      hoverImage: choachHover11,
     },
     {
       image: choach12,
-      hoverImage: choachHover10,
+      hoverImage: choachHover12,
     },
   ]
 

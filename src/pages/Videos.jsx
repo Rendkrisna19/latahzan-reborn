@@ -3,9 +3,13 @@ import backgroundImage from "../images/bg3.png";
 import Video1 from "../VdeoBg/bg.mp4";
 import Video2 from "../VdeoBg/bg1.mp4";
 import Video3 from "../VdeoBg/bg2.mp4";
+import Video4 from "../VdeoBg/bg3.mp4";
+import Video5 from "../VdeoBg/bg4.mp4";
+import Video6 from "../VdeoBg/bg5.mp4";
+import Video7 from "../VdeoBg/bg6.mp4";
 
 // Daftar video yang diimpor
-const videoList = [Video1, Video2, Video3];
+const videoList = [Video1, Video2, Video3, Video4, Video5, Video6, Video7];
 
 const Videos = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

@@ -98,6 +98,10 @@ import choach7 from "../images/ChoachImage/48.png";
 import choach8 from "../images/ChoachImage/49.png";
 import choach9 from "../images/ChoachImage/50.png";
 import choach10 from "../images/ChoachImage/51.png";
+import choach11 from "../images/ChoachImage/52.png";
+import choach12 from "../images/ChoachImage/53.png";
+import choach13 from "../images/ChoachImage/54.png";
+import choach14 from "../images/ChoachImage/55.png";
 //Hover Choach
 import choachHover1  from "../images/ChoachImage/42.png";
 import choachHover2 from "../images/ChoachImage/43.png";
@@ -313,6 +317,14 @@ const PlayersAndCoach = () => {
       image: choach3,
       hoverImage: choachHover3,
     },
+    {
+      image: choach13,
+      hoverImage: choachHover2,
+    },
+    {
+      image: choach14,
+      hoverImage: choachHover3,
+    },
     
   ];
 
@@ -343,6 +355,14 @@ const PlayersAndCoach = () => {
     },
     {
       image: choach10,
+      hoverImage: choachHover10,
+    },
+    {
+      image: choach11,
+      hoverImage: choachHover9,
+    },
+    {
+      image: choach12,
       hoverImage: choachHover10,
     },
   ]
